@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #354b58;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+nav ul li a:hover {
+    background-color: #618dbe;
+    transition: background-color 0.3s;
+}
+.logo {
+    max-width: 80px;
+    max-height: 80px;
+    margin-left: 20px;
+    border-radius: 100%
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+h1 {
+    background-color:  #354b58;
+    border-radius: 50px;
+    text-align: center;
+    color: white;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #333;
+    color: #fff;
+}
+td img {
+    max-width: 50px;
+    vertical-align: middle;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0 ;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+}
+.total {
+    text-align: right;
+    margin-top: 20px;
+}
+.quantity-buttons {
+    display: flex;
+    align-items: center;
+}
+.quantity-buttons label {
+    margin-right: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.quantity-buttons label:hover {
+    background-color: #45a049;
+}
+.quantity-buttons input[type="radio"] {
+    display: none;
+}
+.quantity {
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+}
